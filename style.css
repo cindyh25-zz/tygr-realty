@@ -1,0 +1,94 @@
+body {
+  font-family: 'Frank Ruhl Libre', serif;
+  background-color: #FFF1E0;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+h6 {
+  margin-top: 1em;
+  color: #793A00;
+  font-weight: 500;
+}
+h5 {
+  font-weight: bold;
+  margin-bottom: 0.75em;
+}
+
+.light-orange {
+  color: #FFF1E0
+}
+
+.dark-orange {
+  color: #C66308
+}
+
+.medium-orange {
+  color: #F4C79E
+}
+
+.brown {
+  color: #793A00
+}
+
+#header {
+  display: flex;
+  flex-direction: horizontal;
+}
+
+#header-wrapper {
+  left: 50%;
+  top: 10%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+#logo {
+  margin-right: 20px;
+}
+
+#name {
+  margin: 0;
+}
+
+#contact {
+  display: flex;
+  align-items: center;
+}
+
+#contact-wrapper {
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+#phone {
+  margin: 0;
+}
+
+a {
+  transition: 0.25s ease;
+  color: black;
+}
+
+a:hover {
+  color: #C66308;
+  transition: 0.25s ease;
+}
+
+.inline {
+  display: inline
+}
+
+.dot {
+  height: 4px;
+  display: inline-block;
+  width: 4px;
+  border-radius: 2px;
+  background-color: #C66308;
+  margin: 0 8px;
+}
